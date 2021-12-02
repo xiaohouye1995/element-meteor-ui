@@ -1,4 +1,4 @@
-const base = process.env.NODE_ENV === 'production' ? '/element-meteor-ui' : '';
+const base = process.env.NODE_ENV === 'production' ? '/' : '';
 const { resolve } = require('path');
 
 module.exports = {
